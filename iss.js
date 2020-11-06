@@ -37,7 +37,7 @@ const fetchCoordsByIP = (ip, callback) => {
     const coords = {
       latitude: data.lat,
       longitude: data.lon
-    };
+    }; 
 
     callback(null, coords);
     return;
